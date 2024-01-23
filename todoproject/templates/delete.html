@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+<form method="post">
+    {% csrf_token %}
+
+    <P>You are going end this task</P>
+    <input type="submit" class="btn btn-warning">
+
+
+
+</form>
+{% endblock %}
